@@ -4,14 +4,21 @@
   "description": "realtime pizaa app",
   "main": "index.js",
   "author": "Aniruddha Chatterjee",
-  "scripts":{
-    "dev":"nodemon server.js",
-    "start":"node server.js"
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "license": "MIT",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
-    "express-ejs-layouts": "^2.5.1"
+    "express-ejs-layouts": "^2.5.1",
+    "laravel-mix": "^6.0.49"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.83.4",
+    "sass-loader": "12.1.0"
   }
 }
