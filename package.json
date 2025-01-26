@@ -1,0 +1,17 @@
+{
+  "name": "pizza-delivery-app",
+  "version": "1.0.0",
+  "description": "realtime pizaa app",
+  "main": "index.js",
+  "author": "Aniruddha Chatterjee",
+  "scripts":{
+    "dev":"nodemon server.js",
+    "start":"node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
