@@ -1,4 +1,33 @@
-$primary:red;
-body{
+@import './variables';
+
+nav li:last-child a{
     background-color: $primary;
+    &:hover{
+        background-color: $primary-hover;
+    }
+}
+
+nav li a:hover{
+    &:hover{
+        color: $primary;
+    }
+}
+
+section.hero{
+    background-color: $secondary;
+}
+
+.size{
+    background-color: $secondary;
+}
+
+.add-to-cart{
+    border: 2px solid $primary;
+    color: $primary;
+    transition: $smooth;
+    &:hover{
+        background-color: $primary;
+        border-color: $pure;
+        color: $pure;
+    }
 }
